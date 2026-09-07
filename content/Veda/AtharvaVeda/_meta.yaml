@@ -1,0 +1,8 @@
+id: "atharvaveda"
+deity: "Vedas"
+category: "Veda"
+title: "अथर्ववेद"
+author: "Traditional"
+parts:
+  - file: "kaanda_01.yaml"
+    label: "Kaanda 1"
