@@ -1,4 +1,5 @@
-# open-stotra-project
+<img src="images/logo.png" alt="Project Screenshot" width="350">
+
 An open-source, highly structured YAML dataset of multi-lingual Hindu devotional texts, curated for typography-focused e-readers under a strict non-commercial license.
 
 
