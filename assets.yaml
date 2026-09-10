@@ -22,6 +22,8 @@ categories:
     nameHindi: "भजन"
   - key: "Stotram"
     nameHindi: "स्तोत्र"
+  - key: "Sahasranama"
+    nameHindi: "सहस्रनाम"
 
 deities:
   - key: "Hanuman"
