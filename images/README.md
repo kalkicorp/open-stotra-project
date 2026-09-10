@@ -15,9 +15,10 @@ shown on Manas's Dashboard for each category/deity tile.
   anything CC BY/BY-SA (the app should credit the photographer somewhere, e.g. an in-app
   "credits" screen — not yet built, see .claude/specs/missing-and-deferred-items.md in the
   Manas repo).
-- Add the new file under `categories/` or `deities/`, add its `key`/`image` pair to
-  `assets.yaml`, and add its source/author/license to `ATTRIBUTION.md`. The `key` must exactly
-  match the `category`/`deity` string used in the corresponding `content/**/*.yaml` files — it
-  is not derived from folder names.
-- A category/deity with no entry (or a broken URL) falls back to Manas's bundled default
-  icon — it's fine to leave newer or minor content unillustrated.
+- Add the new file under `categories/` or `deities/`, add its `image` path to that key's entry
+  in `assets.yaml` (creating the entry, with a `nameHindi`, if it doesn't exist yet — see the
+  root README's `assets.yaml` section), and add its source/author/license to `ATTRIBUTION.md`.
+  The `key` must exactly match the `category`/`deity` string used in the corresponding
+  `content/**/*.yaml` files — it is not derived from folder names.
+- A category/deity with no `image` entry (or a broken URL) falls back to Manas's own themed
+  placeholder — it's fine to leave newer or minor content unillustrated.

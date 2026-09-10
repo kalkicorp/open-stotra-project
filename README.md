@@ -75,21 +75,27 @@ verses:
 `vId`s must be globally unique and immutable across the *entire* bundle, not just within one
 part file (e.g. `av_k1_v1`, `av_k2_v1`, ...).
 
-### `assets.yaml` (category/deity images)
-Indexes the photography under `images/categories/` and `images/deities/`, keyed by the same
+### `assets.yaml` (category/deity display metadata)
+Indexes the bilingual caption and photography for each category/deity, keyed by the same
 `category`/`deity` string values used in `content/**/*.yaml` — not by folder or file name:
 ```yaml
 categories:
   - key: "Chalisa"
+    nameHindi: "चालीसा"
     image: "images/categories/chalisa.jpg"
 deities:
   - key: "Hanuman"
+    nameHindi: "हनुमान"
     image: "images/deities/hanuman.jpg"
 ```
-A `key` with no entry (or a broken image) is expected to fall back to the consuming app's own
-default icon — new content doesn't need matching art before it can ship. Images are full-color,
-high-resolution photography, not icon art — see `images/README.md` for sourcing/resolution
-guidance and `images/ATTRIBUTION.md` for the required per-file source/author/license record.
+| Field | Required | Notes |
+|---|---|---|
+| `key` | yes | Must exactly match a `category`/`deity` value used in `content/**/*.yaml`. |
+| `nameHindi` | no | Bilingual caption shown under the English name in the consuming app. Omit rather than guessing a translation. |
+| `image` | no | Path under `images/categories/` or `images/deities/`. Full-color, high-resolution photography, not icon art — see `images/README.md` for sourcing/resolution guidance and `images/ATTRIBUTION.md` for the required per-file source/author/license record. |
+
+A `key` with no entry (or no `image`/broken image) is expected to fall back to the consuming
+app's own placeholder — new content doesn't need a caption or matching art before it can ship.
 
 ## ⚖️ License & Commercial Restrictions
 

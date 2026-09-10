@@ -1,18 +1,40 @@
-# Category/deity image index for Manas's Dashboard. Keys are matched against the `category`/
-# `deity` string values used across content/**/*.yaml — not folder names, same rule as content
-# discovery. Image files are full-color, high-resolution photography (see images/README.md and
-# images/ATTRIBUTION.md for source/license per file). A key with no entry here (or a broken
-# image) falls back to Manas's bundled default_category/default_deity drawable.
+# Category/deity display metadata for Manas's Dashboard/List screens. Keys are matched against
+# the `category`/`deity` string values used across content/**/*.yaml — not folder names, same
+# rule as content discovery.
+#
+# `nameHindi` is the bilingual caption shown under the English name; optional — a key with no
+# entry (or no nameHindi field) just shows the English name alone, never a guessed translation.
+#
+# `image` is optional too. When present, it's full-color, high-resolution photography (see
+# images/README.md and images/ATTRIBUTION.md for source/license per file). A key with no image
+# (or a broken one) falls back to Manas's themed-gradient placeholder.
 categories:
   - key: "Aarti"
+    nameHindi: "आरती"
     image: "images/categories/aarti.jpg"
   - key: "Chalisa"
+    nameHindi: "चालीसा"
     image: "images/categories/chalisa.jpg"
   - key: "Veda"
+    nameHindi: "वेद"
     image: "images/categories/veda.jpg"
+  - key: "Bhajan"
+    nameHindi: "भजन"
+  - key: "Stotram"
+    nameHindi: "स्तोत्र"
 
 deities:
   - key: "Hanuman"
+    nameHindi: "हनुमान"
     image: "images/deities/hanuman.jpg"
   - key: "Shiva"
+    nameHindi: "शिव"
     image: "images/deities/shiva.jpg"
+  - key: "Rama"
+    nameHindi: "राम"
+  - key: "Vedas"
+    nameHindi: "वेद"
+  - key: "Ganesha"
+    nameHindi: "गणेश"
+  - key: "Durga"
+    nameHindi: "दुर्गा"
