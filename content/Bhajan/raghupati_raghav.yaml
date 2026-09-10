@@ -1,0 +1,12 @@
+id: "raghupati_raghav_bhajan_001"
+deity: "Rama"
+category: "Bhajan"
+title: "रघुपति राघव राजा राम"
+author: "Traditional"
+verses:
+  - vId: "rr_v1"
+    text: "रघुपति राघव राजा राम।\nपतित पावन सीता राम॥"
+  - vId: "rr_v2"
+    text: "सीता राम, सीता राम।\nभज प्यारे तू सीता राम॥"
+  - vId: "rr_v3"
+    text: "ईश्वर अल्लाह तेरो नाम।\nसबको सन्मति दे भगवान॥"
