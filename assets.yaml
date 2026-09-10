@@ -1,0 +1,18 @@
+# Category/deity image index for Manas's Dashboard. Keys are matched against the `category`/
+# `deity` string values used across content/**/*.yaml — not folder names, same rule as content
+# discovery. Image files are full-color, high-resolution photography (see images/README.md and
+# images/ATTRIBUTION.md for source/license per file). A key with no entry here (or a broken
+# image) falls back to Manas's bundled default_category/default_deity drawable.
+categories:
+  - key: "Aarti"
+    image: "images/categories/aarti.jpg"
+  - key: "Chalisa"
+    image: "images/categories/chalisa.jpg"
+  - key: "Veda"
+    image: "images/categories/veda.jpg"
+
+deities:
+  - key: "Hanuman"
+    image: "images/deities/hanuman.jpg"
+  - key: "Shiva"
+    image: "images/deities/shiva.jpg"
