@@ -24,6 +24,12 @@ categories:
     nameHindi: "स्तोत्र"
   - key: "Sahasranama"
     nameHindi: "सहस्रनाम"
+  - key: "Suktam"
+    nameHindi: "सूक्तम्"
+  - key: "Kavacham"
+    nameHindi: "कवचम्"
+  - key: "Katha"
+    nameHindi: "कथा"
 
 deities:
   - key: "Hanuman"
