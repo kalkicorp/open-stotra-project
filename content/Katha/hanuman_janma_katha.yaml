@@ -3,6 +3,7 @@ deity: "Hanuman"
 category: "Katha"
 title: "हनुमान जन्म कथा"
 author: "Traditional"
+tags: ["hanuman janma katha", "hanuman birth story"]
 verses:
   - vId: "hjk_v1"
     text: "अंजनी माता के गर्भ से केसरी नंदन का जन्म हुआ, जिन्हें हनुमान कहा गया।\nपवनदेव के आशीर्वाद से इनमें अद्भुत बल और वायु के समान गति थी।"

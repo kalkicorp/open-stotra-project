@@ -3,6 +3,7 @@ deity: "Hanuman"
 category: "Chalisa"
 title: "श्री हनुमान चालीसा"
 author: "Tulsidas"
+tags: ["hanuman chalisa", "bajrangbali", "sankat mochan"]
 verses:
   - vId: "hc_v1"
     label: "दोहा"

@@ -3,6 +3,7 @@ deity: "Vishnu"
 category: "Suktam"
 title: "पुरुष सूक्तम्"
 author: "Traditional"
+tags: ["purusha suktam", "purush sukta"]
 verses:
   - vId: "ps_v1"
     text: "ॐ सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् ।\nस भूमिं विश्वतो वृत्वा अत्यतिष्ठद्दशाङ्गुलम् ॥"

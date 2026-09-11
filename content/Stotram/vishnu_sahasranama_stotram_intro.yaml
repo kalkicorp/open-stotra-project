@@ -3,6 +3,7 @@ deity: "Vishnu"
 category: "Stotram"
 title: "श्री वेंकटेश्वर स्तोत्रम्"
 author: "Traditional"
+tags: ["venkateswara stotram", "sri venkateswara stotram", "balaji stotram"]
 verses:
   - vId: "vs_v1"
     text: "कमलाकुचचूचुककुङ्कुमतो \nनियतारुणितातुलनीलतनो ।\nकमलायतलोचनलोकपते \nविजयीभव वेंकटशैलपते ॥"

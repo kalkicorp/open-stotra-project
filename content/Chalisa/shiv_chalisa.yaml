@@ -3,6 +3,7 @@ deity: "Shiva"
 category: "Chalisa"
 title: "श्री शिव चालीसा"
 author: "Ayodhyadas"
+tags: ["shiv chalisa", "shiva chalisa", "mahadev"]
 verses:
   - vId: "sc_v1"
     text: "श्री गणेश गिरिजा सुवन, मंगल मूल सुजान।\nकहत अयोध्यादास तुम, देहु अभय वरदान॥"

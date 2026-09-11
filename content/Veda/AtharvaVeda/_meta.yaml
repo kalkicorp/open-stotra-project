@@ -3,6 +3,7 @@ deity: "Vedas"
 category: "Veda"
 title: "अथर्ववेद"
 author: "Traditional"
+tags: ["atharvaveda", "atharva veda"]
 parts:
   - file: "kaanda_01.yaml"
     label: "Kaanda 1"
