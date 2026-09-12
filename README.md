@@ -17,7 +17,6 @@ assets.yaml          <- category/deity image index (see below)
 images/
   categories/*.jpg
   deities/*.jpg
-  ATTRIBUTION.md      <- required source/author/license record for every file above
   logo.png           <- repo/project logo, unrelated to app content
 ```
 Only files under `content/` are treated as text data. Directory structure there is purely
@@ -39,17 +38,17 @@ verses:
     label: "दोहा"      # optional, see below
     text: "श्रीगुरु चरन सरोज रज, निज मनु मुकुरु सुधारि।\nबरनऊँ रघूबर बिमल जसु, जो दायकु फल चारि॥"
 ```
-| Field | Required | Notes |
-|---|---|---|
-| `id` | yes | Globally unique across the whole repo. |
-| `deity` | yes | Plain string, e.g. `"Hanuman"`. Any value is valid — it just becomes its own tile in the consuming app's deity list. |
-| `category` | yes | Plain string, e.g. `"Chalisa"`. Same rule as `deity`. |
-| `title` | yes | Display title, typically Devanagari. |
-| `author` | yes | Traditional/attributed author. |
-| `verses` | yes | Ordered list; array position is the reading order. |
-| `verses[].vId` | yes | **Immutable per verse.** Never regenerate or reuse it when correcting a verse's text — consuming apps key bookmarks off `vId`, not position, so changing it silently breaks a reader's saved place. |
-| `verses[].label` | no | Optional caption shown above the verse (e.g. `"दोहा"`, `"चौपाई"`, or an English equivalent like `"Doha"` — script-agnostic, no separate English/Devanagari fields). Omit the key entirely when it doesn't apply to a verse. |
-| `verses[].text` | yes | Verse text. Use `\n` for an internal line break within one verse. |
+| Field            | Required | Notes                                                                                                                                                                                                                       |
+|------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `id`             | yes      | Globally unique across the whole repo.                                                                                                                                                                                      |
+| `deity`          | yes      | Plain string, e.g. `"Hanuman"`. Any value is valid — it just becomes its own tile in the consuming app's deity list.                                                                                                        |
+| `category`       | yes      | Plain string, e.g. `"Chalisa"`. Same rule as `deity`.                                                                                                                                                                       |
+| `title`          | yes      | Display title, typically Devanagari.                                                                                                                                                                                        |
+| `author`         | yes      | Traditional/attributed author.                                                                                                                                                                                              |
+| `verses`         | yes      | Ordered list; array position is the reading order.                                                                                                                                                                          |
+| `verses[].vId`   | yes      | **Immutable per verse.** Never regenerate or reuse it when correcting a verse's text — consuming apps key bookmarks off `vId`, not position, so changing it silently breaks a reader's saved place.                         |
+| `verses[].label` | no       | Optional caption shown above the verse (e.g. `"दोहा"`, `"चौपाई"`, or an English equivalent like `"Doha"` — script-agnostic, no separate English/Devanagari fields). Omit the key entirely when it doesn't apply to a verse. |
+| `verses[].text`  | yes      | Verse text. Use `\n` for an internal line break within one verse.                                                                                                                                                           |
 
 ### Bundle directory (multi-file single work)
 A directory is a bundle when it contains a `_meta.yaml`:
@@ -88,11 +87,11 @@ deities:
     nameHindi: "हनुमान"
     image: "images/deities/hanuman.jpg"
 ```
-| Field | Required | Notes |
-|---|---|---|
-| `key` | yes | Must exactly match a `category`/`deity` value used in `content/**/*.yaml`. |
-| `nameHindi` | no | Bilingual caption shown under the English name in the consuming app. Omit rather than guessing a translation. |
-| `image` | no | Path under `images/categories/` or `images/deities/`. Full-color, high-resolution photography, not icon art — see `images/README.md` for sourcing/resolution guidance and `images/ATTRIBUTION.md` for the required per-file source/author/license record. |
+| Field       | Required | Notes                                                                                                                                                                  |
+|-------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `key`       | yes      | Must exactly match a `category`/`deity` value used in `content/**/*.yaml`.                                                                                             |
+| `nameHindi` | no       | Bilingual caption shown under the English name in the consuming app. Omit rather than guessing a translation.                                                          |
+| `image`     | no       | Path under `images/categories/` or `images/deities/`. Full-color, high-resolution photography, not icon art — see `images/README.md` for sourcing/resolution guidance. |
 
 A `key` with no entry (or no `image`/broken image) is expected to fall back to the consuming
 app's own placeholder — new content doesn't need a caption or matching art before it can ship.

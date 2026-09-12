@@ -6,8 +6,8 @@
 # entry (or no nameHindi field) just shows the English name alone, never a guessed translation.
 #
 # `image` is optional too. When present, it's full-color, high-resolution photography (see
-# images/README.md and images/ATTRIBUTION.md for source/license per file). A key with no image
-# (or a broken one) falls back to Manas's themed-gradient placeholder.
+# images/README.md). A key with no image (or a broken one) falls back to Manas's
+# themed-gradient placeholder.
 categories:
   - key: "Aarti"
     nameHindi: "आरती"
@@ -20,29 +20,45 @@ categories:
     image: "images/categories/veda.jpg"
   - key: "Bhajan"
     nameHindi: "भजन"
+    image: "images/categories/bhajan.jpg"
   - key: "Stotram"
     nameHindi: "स्तोत्र"
+    image: "images/categories/stotram.jpg"
   - key: "Sahasranama"
     nameHindi: "सहस्रनाम"
+    image: "images/categories/sahasranama.jpg"
   - key: "Suktam"
     nameHindi: "सूक्तम्"
+    image: "images/categories/suktam.jpg"
   - key: "Kavacham"
     nameHindi: "कवचम्"
+    image: "images/categories/kavacham.jpg"
   - key: "Katha"
     nameHindi: "कथा"
+    image: "images/categories/katha.jpg"
 
 deities:
   - key: "Hanuman"
-    nameHindi: "हनुमान"
+    nameHindi: "श्री हनुमान"
     image: "images/deities/hanuman.jpg"
   - key: "Shiva"
-    nameHindi: "शिव"
+    nameHindi: "ॐ नमः शिवाय"
     image: "images/deities/shiva.jpg"
   - key: "Rama"
-    nameHindi: "राम"
+    nameHindi: "श्री राम"
+    image: "images/deities/rama.jpg"
   - key: "Vedas"
     nameHindi: "वेद"
+    image: "images/deities/vedas.jpg"
   - key: "Ganesha"
-    nameHindi: "गणेश"
+    nameHindi: "श्री गणेश"
+    image: "images/deities/ganesha.jpg"
   - key: "Durga"
-    nameHindi: "दुर्गा"
+    nameHindi: "माता दुर्गा"
+    image: "images/deities/durga.jpg"
+  - key: "Lakshmi"
+    nameHindi: "माता लक्ष्मी"
+    image: "images/deities/lakshmi.jpg"
+  - key: "Narayana"
+    nameHindi: "श्री हरि नारायण"
+    image: "images/deities/narayana.jpg"
