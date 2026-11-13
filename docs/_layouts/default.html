@@ -36,6 +36,21 @@
           border-top: 1px solid #E6E0D5;
           margin: 28px 0;
         }
+        .site-footer {
+          margin-top: 56px;
+          padding-top: 28px;
+          border-top: 1px solid #E6E0D5;
+          text-align: center;
+          color: #6E6A64;
+          font-size: 0.95rem;
+        }
+        .site-footer img {
+          width: 36px;
+          height: 36px;
+          margin: 0 auto 12px;
+          display: block;
+          object-fit: contain;
+        }
     </style>
 </head>
 <body>
@@ -47,8 +62,9 @@
 
 {{ content }}
 
-<div>
-    <img src="docs/images/logo.png" alt="Project Screenshot" width="250">
-</div>
+<footer class="site-footer">
+    <img src="{{ '/assets/logo.png' | relative_url }}" alt="The open stotra project logo" width="150">
+    <p><em>"For love of our scripture"</em> — Kalki Corporation</p>
+</footer>
 </body>
 </html>
