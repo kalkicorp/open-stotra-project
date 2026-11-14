@@ -9,10 +9,12 @@ description: "Download Manas, a free ad-free Android app with Hindu aartis, chal
 
 A calm, ad-free devotional reading space for Android, paired with the **Open Stotra Project**, a community-curated, structured repository of Hindu sacred texts.
 
+<div markdown="0">
 <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.kalkicorp.manas" rel="noopener" aria-label="Get Manas on Google Play">
-  <svg viewBox="0 0 30 32" aria-hidden="true"><path fill="#00D7FE" d="M1 1.2 16.4 16 1 30.8c-.6-.3-1-1-1-1.8V3c0-.8.4-1.5 1-1.8z"/><path fill="#00F076" d="M21.5 11 16.4 16 1 1.2c.4-.2.9-.3 1.5 0l19 9.8z"/><path fill="#FF3A44" d="M21.5 21 2.5 31c-.6.3-1.1.2-1.5-.2L16.4 16l5.1 5z"/><path fill="#FFD500" d="m28.2 14.2-6.7-3.2L16.4 16l5.1 5 6.7-3.2c1.2-.7 1.2-3.1 0-3.6z"/></svg>
+  <svg viewBox="0 0 30 32" width="30" height="32" style="width:30px;height:32px;flex:none" aria-hidden="true"><path fill="#00D7FE" d="M1 1.2 16.4 16 1 30.8c-.6-.3-1-1-1-1.8V3c0-.8.4-1.5 1-1.8z"/><path fill="#00F076" d="M21.5 11 16.4 16 1 1.2c.4-.2.9-.3 1.5 0l19 9.8z"/><path fill="#FF3A44" d="M21.5 21 2.5 31c-.6.3-1.1.2-1.5-.2L16.4 16l5.1 5z"/><path fill="#FFD500" d="m28.2 14.2-6.7-3.2L16.4 16l5.1 5 6.7-3.2c1.2-.7 1.2-3.1 0-3.6z"/></svg>
   <span><small>Get it on</small><strong>Google Play</strong></span>
 </a>
+</div>
 
 *Free on Android. No ads, no account required.*
 
