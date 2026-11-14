@@ -1,0 +1,12 @@
+title: "Manas: Aarti & Bhakti Sagar"
+description: "Manas is a free, ad-free Android app for Hindu aartis, chalisas, stotrams and bhajans in Devanagari, with offline reading and verse bookmarks. Powered by the open-source Open Stotra Project."
+url: "https://kalkicorp.github.io"
+baseurl: "/open-stotra-project"
+lang: en
+logo: /assets/icon-512.png
+author: Kalki Corporation
+twitter:
+  card: summary
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

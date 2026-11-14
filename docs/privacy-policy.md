@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Privacy Policy | Manas: Aarti & Bhakti Sagar"
+description: "Privacy policy for Manas: Aarti & Bhakti Sagar, an ad-free Android app that collects no personal data and has no tracking or analytics."
 ---
 
 # Privacy Policy
@@ -47,11 +48,11 @@ If we introduce new features in the future (such as optional cloud backups or no
 
 ### 7. Contact Us
 If you have any questions or concerns regarding this Privacy Policy, you can reach us by opening an issue on our [GitHub Repository](https://github.com/kalkicorp/open-stotra-project/issues) or emailing us directly at:  
-**[Insert Your Contact Email Here]**
+**[info@kalkicorp.com](mailto:info@kalkicorp.com)**
 
 ---
 
 ### 🔗 Navigation
-* [← Back to Home](index.html)
+* [← Back to Home]({{ '/' | relative_url }})
 
 *"For love of our scripture" — Kalki Corporation*
